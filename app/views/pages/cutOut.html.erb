@@ -1,0 +1,23 @@
+<div class="main">
+	<div class="container slider">
+		<!-- The barebones HTML required for Unslider -->
+		<div class="my-slider">
+			<ul>
+				<li><img src="https://s3.eu-central-1.amazonaws.com/portfoliofabrizio/my+website_cropped.png"></li>
+				<li><img src="https://s3.eu-central-1.amazonaws.com/portfoliofabrizio/threadly.png"></li>
+				<li><img src="https://s3.eu-central-1.amazonaws.com/portfoliofabrizio/List+Easy.png"></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="crop">
+  <%= video_tag "my video.mp4", controls: false, autoplay: true, loop: true, muted: true %>
+</div>
+
+
+
+<div class="row">
+  <h1> Bartering Apps </h1>      
+  <%= button_to "My Work", { action: "portfolio" }, method: :get %>
+</div>

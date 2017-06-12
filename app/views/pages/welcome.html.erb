@@ -1,0 +1,27 @@
+<!-- VIDEO HEADER -->
+<!-- 1 Convert the video in compatible formats -->
+
+<%= render(:partial => "navigation") %>
+
+<div class="header header-video">
+
+  <div id="video-container">   
+      <%= video_tag "Islands.mp4", autoplay: true, loop: true, muted: true, poster: "Islands.png" %>
+     
+    <div class="centered">
+      <h1> Bartering Apps </h1>      
+      <%= link_to "View my Work", { action: "portfolio" }, class: "button" %>
+    </div>
+  </div>
+</div>
+
+<!-- Video Protrait and Text -->
+<div class="main welcome">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Do you have a <span>good idea</span>, but do not have the <span>coding skills</span> and the <span>financial resources</span> to realize it?</br>Would you like me to develope your <span>Application</span> for free?</br> I <span>travel</span> the <span>World</span> helping other people realize their own Ideas in the form of <span>responsive Application</span> available for Desktop, Table and Mobile, based on a powerful <span>Ruby on Rails</span> Architecture and with the possibility to realizy any of your wishes and those of your Customers!</br>I develope Applications in exchange of your Hospitality and the coverage of my Travel Expenses.</h2>
+      </div>
+    </div>
+  </div>
+</div>
