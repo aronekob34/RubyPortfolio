@@ -26,5 +26,5 @@ test:
 production:
   <<: *default
   database: portfolio_production
-  username: fabrizio
+  username: aronekob34
   password: <%= ENV['DATABASE_PW'] %>
